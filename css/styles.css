@@ -38,11 +38,6 @@ body {
     background-color: #512da8;
 }
 
-.card-header {
-    font-weight: bold;
-    background-color: #f3ba00;
-}
-
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
