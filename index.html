@@ -87,7 +87,7 @@
                     <img src = "img/logo.png" class = "img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <a href = "#reserve" role = "button" class = "btn btn-warning btn-sm btn-block"
+                    <a  id = "resButton" href = "#reserve" role = "button" class = "btn btn-warning btn-sm btn-block"
                      data-html = "true" title = "Or Call us at <br><strong>+852 1234567</strong>"
                      data-placement = "bottom">Reserve Table</a>
                 </div>
@@ -309,6 +309,10 @@
                     $("#carouselButton").children('span').addClass('fa-pause');
                 }
             });
+            $('#resButton').click(function() {
+                $('#reserve').modal('toggle');
+            });
+            //$("#loginModal").modal('toggle');
         });
     </script>
     <!--
