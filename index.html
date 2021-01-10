@@ -31,7 +31,7 @@
                     <li class = "nav-item"><a class = "nav-link" href = "./contactus.html"><span class = "fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class = "navbar-text">
-                    <a>
+                    <a id = "logButton">
                         <span class = "fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -309,10 +309,12 @@
                     $("#carouselButton").children('span').addClass('fa-pause');
                 }
             });
-            $('#resButton').click(function() {
-                $('#reserve').modal('toggle');
+            $("#logButton").click(function() {
+                $("#loginModal").modal('toggle');
             });
-            //$("#loginModal").modal('toggle');
+            $("#resButton").click(function() {
+                $("#reserve").modal('toggle');
+            });
         });
     </script>
     <!--
