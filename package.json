@@ -36,5 +36,13 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timsoriano3/bootstrap-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timsoriano3/bootstrap-test/issues"
+  },
+  "homepage": "https://github.com/timsoriano3/bootstrap-test#readme"
 }
